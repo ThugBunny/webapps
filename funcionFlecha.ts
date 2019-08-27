@@ -8,3 +8,4 @@ var shape = {
     },3000);
   }
 };
+shape.popup();
