@@ -1,6 +1,9 @@
-function randomElem<T>(theArray: T[]): T {
-  let randomIndex = Math.floor(Math.random()*theArray.length);
-  return theArray[randomIndex];
+function removeChar(theString: string, theChar: string): string {
+  let theRegex = new RegExp(theChar, "gi");
+  return theString.replace(theRegex, '');
 }
-let colors: string[] = ['violet', 'indigo', 'blue', 'green'];
-let randomColor: string = randomElem(colors);
+
+function removeIt<T>(theInput: T, theIt: string): T {
+  let theRegex = new RegExp(theIt, "gi");
+  return theInput.replace(theRegex, '');
+}
