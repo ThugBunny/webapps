@@ -18,4 +18,9 @@ let f: string = 3;  //Error
 let g: string = "3"; 
 
 
+let e: string = "building";
+let f: number = 300;
+
+let sentence: string = "the ${e} in front of my office is ${f} feet tall.";
+
 
