@@ -15,3 +15,11 @@ area: 371000,
 isFreshwater: false,
 countries: ['Kazakhstan', 'Russia', 'Turkmenistan', 'Azerbaijan', 'Iran']
 }
+
+let secondLake: Lakes = {
+name: 'Superior',
+length: 616,
+area: 82100,
+isFreshwater: true,
+countries: ['Canada', 'United States']
+}
